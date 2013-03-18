@@ -146,12 +146,10 @@
 <text x="12.827" y="11.938" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="top-center">CB0</text>
 <text x="15.367" y="11.938" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="top-center">CB1</text>
 <text x="7.747" y="11.938" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="top-center">TX</text>
-<text x="1.27" y="13.97" size="0.889" layer="21" font="vector" ratio="15" rot="R270" align="top-center">GND</text>
 <text x="15.367" y="3.302" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">DCD</text>
 <text x="12.827" y="3.302" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">DSR</text>
 <text x="10.287" y="3.302" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">RI</text>
 <text x="7.747" y="3.302" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">RX</text>
-<text x="1.27" y="1.27" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">3.3</text>
 <text x="7.62" y="7.747" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="top-center">FT231X</text>
 <text x="13.843" y="5.969" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">5V</text>
 <text x="13.716" y="9.271" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="top-center">3.3</text>
@@ -533,6 +531,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -1055,8 +1056,10 @@ design rules under a new name.</description>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="20.32" y="11.43" rot="R270"/>
 <element name="R5" library="SparkFun-Passives" package="0402-RES" value="10k" x="20.2184" y="8.89"/>
 <element name="R6" library="SparkFun-Passives" package="0402-RES" value="10k" x="20.32" y="13.97" rot="R180"/>
-<element name="JP2" library="SparkFun-Aesthetics" package="SFE-NEW-WEB" value="LOGO-SFENW2" x="12.446" y="5.842" rot="MR0"/>
+<element name="JP2" library="SparkFun-Aesthetics" package="SFE-NEW-WEB" value="LOGO-SFENW2" x="12.573" y="5.842" rot="MR0"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="17.653" y="7.62" smashed="yes" rot="MR0"/>
+<element name="JP3" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="0.762" y="14.478"/>
+<element name="JP4" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="21.971" y="2.54"/>
 </elements>
 <signals>
 <signal name="N$1">
