@@ -10,6 +10,7 @@ Repository Contents
 -------------------
 
 * **/hardware** - PCB design files (created with Eagle 6.1.0)
+* **/Production Files** - Test bed files and production panel files
 
 License Information
 -------------------
