@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -1200,11 +1200,12 @@ design rules under a new name.</description>
 <wire x1="20.6756" y1="5.207" x2="20.2946" y2="4.826" width="0.254" layer="1"/>
 <wire x1="19.0754" y1="4.7108" x2="20.1794" y2="4.7108" width="0.254" layer="1"/>
 <wire x1="20.1794" y1="4.7108" x2="20.2946" y2="4.826" width="0.254" layer="1"/>
-<wire x1="6.0028" y1="8.92" x2="9.174" y2="8.92" width="0.254" layer="16"/>
-<wire x1="9.174" y1="8.92" x2="10.16" y2="9.906" width="0.254" layer="16"/>
-<wire x1="10.16" y1="9.906" x2="10.16" y2="11.303" width="0.254" layer="16"/>
-<wire x1="10.16" y1="9.906" x2="10.16" y2="9.779" width="0.254" layer="16"/>
-<wire x1="10.16" y1="9.779" x2="11.43" y2="8.509" width="0.254" layer="16"/>
+<wire x1="6.0028" y1="8.92" x2="9.301" y2="8.92" width="0.254" layer="16"/>
+<wire x1="9.301" y1="8.92" x2="9.779" y2="9.398" width="0.254" layer="16"/>
+<wire x1="9.779" y1="9.398" x2="10.16" y2="9.398" width="0.254" layer="16"/>
+<wire x1="10.16" y1="9.398" x2="10.541" y2="9.398" width="0.254" layer="16"/>
+<wire x1="10.541" y1="9.398" x2="11.43" y2="8.509" width="0.254" layer="16"/>
+<wire x1="10.16" y1="11.303" x2="10.16" y2="9.398" width="0.254" layer="16"/>
 </signal>
 <signal name="CTS">
 <contactref element="JP1" pad="2"/>
