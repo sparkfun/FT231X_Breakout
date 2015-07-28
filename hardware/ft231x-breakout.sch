@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -89,6 +91,7 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -97,6 +100,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -132,11 +136,19 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
@@ -148,9 +160,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="21">
@@ -187,43 +199,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
-</polygon>
-</package>
-<package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="21">
-<vertex x="0.6578" y="-1.588" curve="9.499253"/>
-<vertex x="0.9108" y="-1.4576"/>
-<vertex x="1.5392" y="-1.97"/>
-<vertex x="1.97" y="-1.5392"/>
-<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
-<vertex x="1.6747" y="-0.3866"/>
-<vertex x="2.4814" y="-0.3047"/>
-<vertex x="2.4814" y="0.3047"/>
-<vertex x="1.6747" y="0.3866" curve="19.001165"/>
-<vertex x="1.4576" y="0.9108"/>
-<vertex x="1.97" y="1.5392"/>
-<vertex x="1.5392" y="1.97"/>
-<vertex x="0.9108" y="1.4576" curve="19.001165"/>
-<vertex x="0.3866" y="1.6747"/>
-<vertex x="0.3047" y="2.4814"/>
-<vertex x="-0.3047" y="2.4814"/>
-<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
-<vertex x="-0.9108" y="1.4576"/>
-<vertex x="-1.5392" y="1.97"/>
-<vertex x="-1.97" y="1.5392"/>
-<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
-<vertex x="-1.6747" y="0.3866"/>
-<vertex x="-2.4814" y="0.3047"/>
-<vertex x="-2.4814" y="-0.3047"/>
-<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
-<vertex x="-1.4576" y="-0.9108"/>
-<vertex x="-1.97" y="-1.5392"/>
-<vertex x="-1.5392" y="-1.97"/>
-<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
-<vertex x="-0.6578" y="-1.588"/>
-<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
-<vertex x="-0.7813" y="0" curve="-247.497552"/>
-<vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
 <package name="OSHW-LOGO-L">
@@ -270,7 +245,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 <package name="SFE_LOGO_NAME_.1">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="0.87" y="1.8"/>
 <vertex x="0.88" y="1.74"/>
 <vertex x="0.9" y="1.7"/>
@@ -384,7 +359,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.78" y="1.8"/>
 <vertex x="0.82" y="1.8"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.98" y="1.8"/>
 <vertex x="3" y="1.88"/>
 <vertex x="3.01" y="1.96"/>
@@ -394,7 +369,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="3.37" y="1.76"/>
 <vertex x="3.32" y="1.64"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.32" y="1.64"/>
 <vertex x="3.25" y="1.53"/>
 <vertex x="3.16" y="1.44"/>
@@ -496,7 +471,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="2.94" y="1.74"/>
 <vertex x="2.98" y="1.8"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.99" y="2.15"/>
 <vertex x="4.08" y="2.17"/>
 <vertex x="4.17" y="2.18"/>
@@ -513,7 +488,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="4.09" y="1.94"/>
 <vertex x="4.07" y="1.94"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="4.07" y="1.94"/>
 <vertex x="4.05" y="1.93"/>
 <vertex x="4.03" y="1.92"/>
@@ -773,7 +748,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="3.91" y="2.14"/>
 <vertex x="3.99" y="2.15"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5.06" y="2.69"/>
 <vertex x="5.11" y="2.7"/>
 <vertex x="5.16" y="2.71"/>
@@ -856,7 +831,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="5.06" y="2.35"/>
 <vertex x="5.06" y="2.52"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="6.13" y="3.08"/>
 <vertex x="6.51" y="3.3"/>
 <vertex x="6.51" y="2.25"/>
@@ -870,7 +845,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="6.51" y="1.34"/>
 <vertex x="6.13" y="1.34"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="7.76" y="2.5"/>
 <vertex x="7.71" y="2.5"/>
 <vertex x="7.66" y="2.5"/>
@@ -1000,7 +975,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="7.76" y="2.21"/>
 <vertex x="7.76" y="2.35"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.85" y="1.34"/>
 <vertex x="9.8" y="1.34"/>
 <vertex x="9.76" y="1.34"/>
@@ -1098,7 +1073,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="9.85" y="1.7"/>
 <vertex x="9.85" y="1.52"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="10.07" y="2.76"/>
 <vertex x="10.11" y="2.76"/>
 <vertex x="10.16" y="2.76"/>
@@ -1198,8 +1173,159 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="10.06" y="2.58"/>
 </polygon>
 </package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
+<package name="OSHW-LOGO-S_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-L_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
+<vertex x="1.2751" y="-2.0407"/>
+<vertex x="2.1548" y="-2.758"/>
+<vertex x="2.758" y="-2.1548"/>
+<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
+<vertex x="2.3446" y="-0.5413"/>
+<vertex x="3.4739" y="-0.4265"/>
+<vertex x="3.4739" y="0.4265"/>
+<vertex x="2.3446" y="0.5413" curve="18.998791"/>
+<vertex x="2.0407" y="1.2751"/>
+<vertex x="2.758" y="2.1548"/>
+<vertex x="2.1548" y="2.758"/>
+<vertex x="1.2751" y="2.0407" curve="18.998791"/>
+<vertex x="0.5413" y="2.3446"/>
+<vertex x="0.4265" y="3.4739"/>
+<vertex x="-0.4265" y="3.4739"/>
+<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
+<vertex x="-1.2751" y="2.0407"/>
+<vertex x="-2.1548" y="2.758"/>
+<vertex x="-2.758" y="2.1548"/>
+<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
+<vertex x="-2.3446" y="0.5413"/>
+<vertex x="-3.4739" y="0.4265"/>
+<vertex x="-3.4739" y="-0.4265"/>
+<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
+<vertex x="-2.0407" y="-1.2751"/>
+<vertex x="-2.758" y="-2.1548"/>
+<vertex x="-2.1548" y="-2.758"/>
+<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
+<vertex x="-0.9209" y="-2.2231"/>
+<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
+<vertex x="-1.0938" y="0" curve="-247.497204"/>
+<vertex x="0.4186" y="-1.0105"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M">
+<polygon width="0.0762" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
 <package name="SFE_LOGO_NAME_.2">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="0.74" y="2.6"/>
 <vertex x="0.75" y="2.49"/>
 <vertex x="0.79" y="2.39"/>
@@ -1313,7 +1439,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.55" y="2.6"/>
 <vertex x="0.65" y="2.6"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="4.95" y="2.61"/>
 <vertex x="5" y="2.76"/>
 <vertex x="5.02" y="2.92"/>
@@ -1323,7 +1449,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="5.73" y="2.52"/>
 <vertex x="5.63" y="2.28"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5.63" y="2.28"/>
 <vertex x="5.5" y="2.06"/>
 <vertex x="5.32" y="1.87"/>
@@ -1426,7 +1552,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="4.89" y="2.47"/>
 <vertex x="4.95" y="2.61"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="6.99" y="3.31"/>
 <vertex x="7.17" y="3.33"/>
 <vertex x="7.34" y="3.35"/>
@@ -1443,7 +1569,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="7.18" y="2.89"/>
 <vertex x="7.13" y="2.88"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="7.13" y="2.87"/>
 <vertex x="7.09" y="2.86"/>
 <vertex x="7.05" y="2.85"/>
@@ -1706,7 +1832,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="6.81" y="3.28"/>
 <vertex x="6.99" y="3.31"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.13" y="4.38"/>
 <vertex x="9.22" y="4.4"/>
 <vertex x="9.31" y="4.41"/>
@@ -1788,7 +1914,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="9.12" y="3.71"/>
 <vertex x="9.12" y="4.04"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="11.25" y="5.16"/>
 <vertex x="12.03" y="5.59"/>
 <vertex x="12.03" y="3.5"/>
@@ -1802,7 +1928,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="12.03" y="1.69"/>
 <vertex x="11.25" y="1.69"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.52" y="3.99"/>
 <vertex x="14.42" y="3.99"/>
 <vertex x="14.33" y="3.99"/>
@@ -1932,7 +2058,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="14.52" y="3.42"/>
 <vertex x="14.52" y="3.7"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.7" y="1.69"/>
 <vertex x="18.61" y="1.69"/>
 <vertex x="18.52" y="1.69"/>
@@ -2031,7 +2157,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="18.71" y="2.39"/>
 <vertex x="18.71" y="2.04"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="19.13" y="4.51"/>
 <vertex x="19.22" y="4.51"/>
 <vertex x="19.31" y="4.51"/>
@@ -2132,7 +2258,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_.3">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="1.61" y="3.91"/>
 <vertex x="1.63" y="3.73"/>
 <vertex x="1.68" y="3.58"/>
@@ -2246,7 +2372,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="1.33" y="3.91"/>
 <vertex x="1.47" y="3.91"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="7.93" y="3.91"/>
 <vertex x="8" y="4.14"/>
 <vertex x="8.03" y="4.38"/>
@@ -2256,7 +2382,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="9.1" y="3.78"/>
 <vertex x="8.95" y="3.41"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="8.95" y="3.41"/>
 <vertex x="8.75" y="3.08"/>
 <vertex x="8.49" y="2.81"/>
@@ -2360,7 +2486,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="7.83" y="3.71"/>
 <vertex x="7.93" y="3.91"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="10.98" y="4.96"/>
 <vertex x="11.25" y="5"/>
 <vertex x="11.5" y="5.03"/>
@@ -2377,7 +2503,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="11.27" y="4.33"/>
 <vertex x="11.2" y="4.31"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="11.2" y="4.31"/>
 <vertex x="11.14" y="4.29"/>
 <vertex x="11.08" y="4.27"/>
@@ -2640,7 +2766,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="10.72" y="4.92"/>
 <vertex x="10.98" y="4.96"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.19" y="6.57"/>
 <vertex x="14.33" y="6.6"/>
 <vertex x="14.47" y="6.62"/>
@@ -2723,7 +2849,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="14.18" y="5.56"/>
 <vertex x="14.18" y="6.07"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.38" y="7.75"/>
 <vertex x="18.54" y="8.39"/>
 <vertex x="18.54" y="5.24"/>
@@ -2737,7 +2863,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="18.54" y="2.53"/>
 <vertex x="17.38" y="2.53"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.28" y="5.99"/>
 <vertex x="22.13" y="5.99"/>
 <vertex x="21.99" y="5.99"/>
@@ -2867,7 +2993,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="22.28" y="5.12"/>
 <vertex x="22.28" y="5.56"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.55" y="2.53"/>
 <vertex x="28.41" y="2.53"/>
 <vertex x="28.27" y="2.53"/>
@@ -2966,7 +3092,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="28.56" y="3.59"/>
 <vertex x="28.56" y="3.06"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="29.2" y="6.77"/>
 <vertex x="29.33" y="6.77"/>
 <vertex x="29.47" y="6.77"/>
@@ -3068,7 +3194,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_.4">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="1.47" y="5.2"/>
 <vertex x="1.5" y="4.96"/>
 <vertex x="1.57" y="4.77"/>
@@ -3182,7 +3308,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="1.1" y="5.2"/>
 <vertex x="1.29" y="5.2"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.88" y="5.2"/>
 <vertex x="9.97" y="5.5"/>
 <vertex x="10.02" y="5.83"/>
@@ -3192,7 +3318,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="11.43" y="5.03"/>
 <vertex x="11.24" y="4.54"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="11.24" y="4.54"/>
 <vertex x="10.97" y="4.1"/>
 <vertex x="10.62" y="3.74"/>
@@ -3296,7 +3422,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="9.75" y="4.93"/>
 <vertex x="9.88" y="5.2"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="13.94" y="6.6"/>
 <vertex x="14.29" y="6.64"/>
 <vertex x="14.63" y="6.68"/>
@@ -3313,7 +3439,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="14.32" y="5.76"/>
 <vertex x="14.23" y="5.74"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.23" y="5.73"/>
 <vertex x="14.15" y="5.71"/>
 <vertex x="14.07" y="5.68"/>
@@ -3576,7 +3702,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="13.59" y="6.54"/>
 <vertex x="13.94" y="6.6"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.21" y="8.74"/>
 <vertex x="18.4" y="8.77"/>
 <vertex x="18.58" y="8.81"/>
@@ -3658,7 +3784,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="18.2" y="7.4"/>
 <vertex x="18.2" y="8.07"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.44" y="10.3"/>
 <vertex x="23.99" y="11.15"/>
 <vertex x="23.99" y="6.97"/>
@@ -3672,7 +3798,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="23.99" y="3.36"/>
 <vertex x="22.44" y="3.36"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.96" y="7.97"/>
 <vertex x="28.77" y="7.97"/>
 <vertex x="28.58" y="7.97"/>
@@ -3802,7 +3928,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="28.96" y="6.81"/>
 <vertex x="28.96" y="7.39"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="37.31" y="3.36"/>
 <vertex x="37.12" y="3.36"/>
 <vertex x="36.94" y="3.36"/>
@@ -3901,7 +4027,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="37.32" y="4.77"/>
 <vertex x="37.32" y="4.07"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="38.16" y="9"/>
 <vertex x="38.35" y="9"/>
 <vertex x="38.53" y="9"/>
@@ -4002,7 +4128,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_.5">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="1.84" y="6.5"/>
 <vertex x="1.87" y="6.21"/>
 <vertex x="1.97" y="5.96"/>
@@ -4116,7 +4242,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="1.38" y="6.5"/>
 <vertex x="1.61" y="6.5"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="12.35" y="6.5"/>
 <vertex x="12.46" y="6.88"/>
 <vertex x="12.53" y="7.28"/>
@@ -4126,7 +4252,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="14.29" y="6.29"/>
 <vertex x="14.05" y="5.67"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.05" y="5.68"/>
 <vertex x="13.71" y="5.13"/>
 <vertex x="13.28" y="4.67"/>
@@ -4230,7 +4356,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="12.18" y="6.16"/>
 <vertex x="12.35" y="6.5"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.43" y="8.25"/>
 <vertex x="17.87" y="8.31"/>
 <vertex x="18.29" y="8.35"/>
@@ -4247,7 +4373,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="17.9" y="7.2"/>
 <vertex x="17.79" y="7.17"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.79" y="7.17"/>
 <vertex x="17.69" y="7.13"/>
 <vertex x="17.59" y="7.09"/>
@@ -4510,7 +4636,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="16.99" y="8.17"/>
 <vertex x="17.43" y="8.25"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.77" y="10.93"/>
 <vertex x="23" y="10.97"/>
 <vertex x="23.23" y="11.01"/>
@@ -4593,7 +4719,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="22.75" y="9.24"/>
 <vertex x="22.75" y="10.09"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.06" y="12.88"/>
 <vertex x="29.99" y="13.94"/>
 <vertex x="29.99" y="8.72"/>
@@ -4607,7 +4733,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="29.99" y="4.2"/>
 <vertex x="28.06" y="4.2"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="36.2" y="9.96"/>
 <vertex x="35.96" y="9.96"/>
 <vertex x="35.73" y="9.96"/>
@@ -4737,7 +4863,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="36.2" y="8.52"/>
 <vertex x="36.2" y="9.24"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="46.64" y="4.2"/>
 <vertex x="46.41" y="4.2"/>
 <vertex x="46.17" y="4.2"/>
@@ -4837,7 +4963,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="46.66" y="5.96"/>
 <vertex x="46.66" y="5.08"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.71" y="11.26"/>
 <vertex x="47.94" y="11.26"/>
 <vertex x="48.17" y="11.26"/>
@@ -4939,7 +5065,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_.6">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.21" y="7.79"/>
 <vertex x="2.25" y="7.45"/>
 <vertex x="2.36" y="7.15"/>
@@ -5053,7 +5179,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="1.66" y="7.79"/>
 <vertex x="1.93" y="7.79"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.82" y="7.8"/>
 <vertex x="14.95" y="8.25"/>
 <vertex x="15.03" y="8.74"/>
@@ -5063,7 +5189,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="17.15" y="7.55"/>
 <vertex x="16.86" y="6.81"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="16.86" y="6.81"/>
 <vertex x="16.45" y="6.15"/>
 <vertex x="15.93" y="5.6"/>
@@ -5168,7 +5294,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="14.62" y="7.39"/>
 <vertex x="14.82" y="7.8"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="20.91" y="9.9"/>
 <vertex x="21.44" y="9.97"/>
 <vertex x="21.95" y="10.03"/>
@@ -5185,7 +5311,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="21.48" y="8.64"/>
 <vertex x="21.35" y="8.6"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="21.35" y="8.6"/>
 <vertex x="21.23" y="8.56"/>
 <vertex x="21.11" y="8.51"/>
@@ -5448,7 +5574,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="20.39" y="9.81"/>
 <vertex x="20.91" y="9.9"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="27.32" y="13.11"/>
 <vertex x="27.59" y="13.16"/>
 <vertex x="27.87" y="13.21"/>
@@ -5531,7 +5657,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="27.3" y="11.09"/>
 <vertex x="27.3" y="12.1"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="33.67" y="15.46"/>
 <vertex x="35.99" y="16.73"/>
 <vertex x="35.99" y="10.46"/>
@@ -5545,7 +5671,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="35.99" y="5.04"/>
 <vertex x="33.67" y="5.04"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="43.44" y="11.95"/>
 <vertex x="43.16" y="11.95"/>
 <vertex x="42.87" y="11.95"/>
@@ -5675,7 +5801,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="43.44" y="10.22"/>
 <vertex x="43.44" y="11.08"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="55.96" y="5.04"/>
 <vertex x="55.69" y="5.04"/>
 <vertex x="55.41" y="5.04"/>
@@ -5776,7 +5902,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="55.99" y="7.16"/>
 <vertex x="55.99" y="6.1"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="57.25" y="13.51"/>
 <vertex x="57.52" y="13.51"/>
 <vertex x="57.8" y="13.51"/>
@@ -5879,7 +6005,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_.7">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.58" y="9.09"/>
 <vertex x="2.62" y="8.69"/>
 <vertex x="2.75" y="8.34"/>
@@ -5993,7 +6119,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="1.93" y="9.09"/>
 <vertex x="2.25" y="9.09"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.29" y="9.1"/>
 <vertex x="17.45" y="9.63"/>
 <vertex x="17.54" y="10.2"/>
@@ -6003,7 +6129,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="20.01" y="8.81"/>
 <vertex x="19.67" y="7.94"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="19.67" y="7.95"/>
 <vertex x="19.2" y="7.18"/>
 <vertex x="18.59" y="6.54"/>
@@ -6112,7 +6238,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="17.06" y="8.62"/>
 <vertex x="17.29" y="9.1"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="24.4" y="11.55"/>
 <vertex x="25.01" y="11.63"/>
 <vertex x="25.61" y="11.7"/>
@@ -6129,7 +6255,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="25.06" y="10.08"/>
 <vertex x="24.91" y="10.04"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="24.91" y="10.03"/>
 <vertex x="24.76" y="9.99"/>
 <vertex x="24.63" y="9.93"/>
@@ -6392,7 +6518,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="23.78" y="11.44"/>
 <vertex x="24.4" y="11.55"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="31.87" y="15.3"/>
 <vertex x="32.19" y="15.35"/>
 <vertex x="32.52" y="15.41"/>
@@ -6476,7 +6602,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="31.85" y="12.94"/>
 <vertex x="31.85" y="14.12"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="39.28" y="18.03"/>
 <vertex x="41.99" y="19.52"/>
 <vertex x="41.99" y="12.2"/>
@@ -6490,7 +6616,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="41.99" y="5.89"/>
 <vertex x="39.28" y="5.89"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="50.68" y="13.94"/>
 <vertex x="50.35" y="13.94"/>
 <vertex x="50.02" y="13.94"/>
@@ -6620,7 +6746,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="50.68" y="11.92"/>
 <vertex x="50.68" y="12.93"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="65.29" y="5.88"/>
 <vertex x="64.97" y="5.88"/>
 <vertex x="64.64" y="5.88"/>
@@ -6721,7 +6847,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="65.32" y="8.35"/>
 <vertex x="65.32" y="7.12"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="66.79" y="15.76"/>
 <vertex x="67.11" y="15.76"/>
 <vertex x="67.43" y="15.76"/>
@@ -6825,7 +6951,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_.8">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.45" y="10.39"/>
 <vertex x="3.5" y="9.93"/>
 <vertex x="3.65" y="9.53"/>
@@ -6941,7 +7067,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="2.71" y="10.39"/>
 <vertex x="3.08" y="10.39"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="20.26" y="10.4"/>
 <vertex x="20.44" y="11"/>
 <vertex x="20.54" y="11.65"/>
@@ -6954,7 +7080,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="23.32" y="9.94"/>
 <vertex x="22.98" y="9.08"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.98" y="9.08"/>
 <vertex x="22.92" y="8.96"/>
 <vertex x="22.44" y="8.2"/>
@@ -7073,7 +7199,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="19.99" y="9.86"/>
 <vertex x="20.26" y="10.4"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.39" y="13.2"/>
 <vertex x="29.09" y="13.29"/>
 <vertex x="29.77" y="13.37"/>
@@ -7090,7 +7216,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="29.14" y="11.52"/>
 <vertex x="28.97" y="11.47"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.97" y="11.46"/>
 <vertex x="28.8" y="11.41"/>
 <vertex x="28.64" y="11.35"/>
@@ -7353,7 +7479,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="27.68" y="13.08"/>
 <vertex x="28.39" y="13.2"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="36.92" y="17.48"/>
 <vertex x="37.29" y="17.55"/>
 <vertex x="37.66" y="17.61"/>
@@ -7437,7 +7563,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="36.9" y="14.79"/>
 <vertex x="36.9" y="16.14"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="45.39" y="20.61"/>
 <vertex x="48.49" y="22.31"/>
 <vertex x="48.49" y="13.95"/>
@@ -7451,7 +7577,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="48.49" y="6.73"/>
 <vertex x="45.39" y="6.73"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="58.43" y="15.94"/>
 <vertex x="58.04" y="15.94"/>
 <vertex x="57.66" y="15.94"/>
@@ -7581,7 +7707,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="58.42" y="13.63"/>
 <vertex x="58.42" y="14.78"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="75.12" y="6.73"/>
 <vertex x="74.75" y="6.73"/>
 <vertex x="74.38" y="6.73"/>
@@ -7685,7 +7811,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="75.15" y="9.54"/>
 <vertex x="75.15" y="8.13"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="76.83" y="18.01"/>
 <vertex x="77.2" y="18.01"/>
 <vertex x="77.56" y="18.01"/>
@@ -7791,7 +7917,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_.9">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.31" y="11.69"/>
 <vertex x="3.37" y="11.17"/>
 <vertex x="3.54" y="10.73"/>
@@ -7920,7 +8046,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="2.48" y="11.69"/>
 <vertex x="2.9" y="11.69"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.23" y="11.7"/>
 <vertex x="22.43" y="12.38"/>
 <vertex x="22.55" y="13.11"/>
@@ -7933,7 +8059,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="25.68" y="11.18"/>
 <vertex x="25.29" y="10.21"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="25.29" y="10.22"/>
 <vertex x="25.22" y="10.08"/>
 <vertex x="24.68" y="9.23"/>
@@ -8052,7 +8178,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="21.93" y="11.09"/>
 <vertex x="22.23" y="11.69"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="31.37" y="14.85"/>
 <vertex x="32.16" y="14.95"/>
 <vertex x="32.93" y="15.04"/>
@@ -8069,7 +8195,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="32.22" y="12.96"/>
 <vertex x="32.03" y="12.91"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="32.03" y="12.9"/>
 <vertex x="31.84" y="12.84"/>
 <vertex x="31.66" y="12.77"/>
@@ -8332,7 +8458,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="30.58" y="14.71"/>
 <vertex x="31.37" y="14.85"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="40.98" y="19.67"/>
 <vertex x="41.39" y="19.74"/>
 <vertex x="41.81" y="19.82"/>
@@ -8416,7 +8542,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="40.95" y="16.64"/>
 <vertex x="40.95" y="18.15"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="50.5" y="23.18"/>
 <vertex x="53.99" y="25.1"/>
 <vertex x="53.99" y="15.69"/>
@@ -8430,7 +8556,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="53.99" y="7.57"/>
 <vertex x="50.5" y="7.57"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="65.17" y="17.93"/>
 <vertex x="64.74" y="17.93"/>
 <vertex x="64.31" y="17.93"/>
@@ -8561,7 +8687,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="65.16" y="15.33"/>
 <vertex x="65.16" y="16.63"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="83.94" y="7.57"/>
 <vertex x="83.53" y="7.57"/>
 <vertex x="83.11" y="7.57"/>
@@ -8667,7 +8793,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="83.98" y="10.74"/>
 <vertex x="83.98" y="9.15"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="85.87" y="20.26"/>
 <vertex x="86.28" y="20.26"/>
 <vertex x="86.7" y="20.26"/>
@@ -8775,7 +8901,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_1">
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.68" y="12.99"/>
 <vertex x="3.75" y="12.41"/>
 <vertex x="3.94" y="11.92"/>
@@ -8920,7 +9046,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="2.76" y="12.99"/>
 <vertex x="3.22" y="12.99"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="24.7" y="13"/>
 <vertex x="24.92" y="13.75"/>
 <vertex x="25.05" y="14.57"/>
@@ -8933,7 +9059,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="28.53" y="12.42"/>
 <vertex x="28.1" y="11.35"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.1" y="11.35"/>
 <vertex x="28.02" y="11.2"/>
 <vertex x="27.42" y="10.26"/>
@@ -9053,7 +9179,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="24.37" y="12.32"/>
 <vertex x="24.7" y="12.99"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="34.86" y="16.5"/>
 <vertex x="35.74" y="16.61"/>
 <vertex x="36.58" y="16.71"/>
@@ -9070,7 +9196,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="35.8" y="14.4"/>
 <vertex x="35.59" y="14.34"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="35.59" y="14.33"/>
 <vertex x="35.38" y="14.27"/>
 <vertex x="35.18" y="14.19"/>
@@ -9334,7 +9460,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="33.98" y="16.35"/>
 <vertex x="34.86" y="16.5"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="45.53" y="21.85"/>
 <vertex x="45.99" y="21.94"/>
 <vertex x="46.45" y="22.02"/>
@@ -9419,7 +9545,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="45.5" y="18.49"/>
 <vertex x="45.5" y="20.17"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="56.11" y="25.76"/>
 <vertex x="59.99" y="27.88"/>
 <vertex x="59.99" y="17.43"/>
@@ -9433,7 +9559,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="59.99" y="8.41"/>
 <vertex x="56.11" y="8.41"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="72.41" y="19.92"/>
 <vertex x="71.93" y="19.92"/>
 <vertex x="71.45" y="19.92"/>
@@ -9564,7 +9690,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="72.4" y="17.03"/>
 <vertex x="72.4" y="18.47"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="93.27" y="8.41"/>
 <vertex x="92.81" y="8.41"/>
 <vertex x="92.35" y="8.41"/>
@@ -9673,7 +9799,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="93.31" y="11.93"/>
 <vertex x="93.31" y="10.17"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="95.41" y="22.51"/>
 <vertex x="95.87" y="22.51"/>
 <vertex x="96.33" y="22.51"/>
@@ -14343,12 +14469,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 Standard 8.5x11 US Letter frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
 </gates>
 <devices>
 <device name="" package="CREATIVE_COMMONS">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="NO_PACKAGE" package="DUMMY">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="Nobody" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14393,12 +14527,28 @@ Standard 8.5x11 US Letter frame</description>
 </devices>
 </deviceset>
 <deviceset name="OSHW-LOGO" prefix="LOGO">
-<description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
+<description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt;
+ This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
 <gates>
 <gate name="G$1" symbol="OSHW-LOGO" x="-5.08" y="-5.08"/>
 </gates>
 <devices>
-<device name="S" package="OSHW-LOGO-S">
+<device name="S-COPPER" package="OSHW-LOGO-S_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M-COPPER" package="OSHW-LOGO-M_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-COPPER" package="OSHW-LOGO-L_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L" package="OSHW-LOGO-L">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14408,7 +14558,7 @@ Standard 8.5x11 US Letter frame</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L" package="OSHW-LOGO-L">
+<device name="S" package="OSHW-LOGO-S">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14511,7 +14661,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="4.3307" y1="-1.9558" x2="4.3307" y2="1.9558" width="0.2032" layer="21"/>
 <wire x1="4.3307" y1="1.9558" x2="-4.3307" y2="1.9558" width="0.2032" layer="21"/>
 <wire x1="-4.3307" y1="1.9558" x2="-4.3307" y2="-1.9558" width="0.2032" layer="21"/>
-<circle x="-3.683" y="-1.143" radius="0.3592" width="0.2032" layer="21"/>
+<circle x="-3.81" y="-2.54" radius="0.1295125" width="0.2032" layer="21"/>
 <text x="0" y="0" size="0.4064" layer="25">&gt;NAME</text>
 <text x="0" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
 <smd name="16" x="-0.3175" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
@@ -14591,31 +14741,31 @@ We've spent an enormous amount of time creating and checking these footprints an
 <description>&lt;h3&gt;FTDI FT231X Full Speed USB to Full-handshake UART&lt;/h3&gt;
 This USB2.0 Full Speed  IC offers a compact bridge to full handshake UART interfaces. The device is a UART, capable of operating up to 3MBaud, with low power consumption (8mA). The FT231X includes the complete FT-X series feature set and enables USB to be added into a system design quickly and easily over a UART interface.&lt;br&gt;&lt;br&gt;</description>
 <gates>
-<gate name="G$1" symbol="FT231X" x="0" y="0"/>
+<gate name="U$1" symbol="FT231X" x="0" y="0"/>
 </gates>
 <devices>
 <device name="S" package="SSOP20_L">
 <connects>
-<connect gate="G$1" pin="!CTS" pad="9"/>
-<connect gate="G$1" pin="!DCD" pad="8"/>
-<connect gate="G$1" pin="!DSR" pad="7"/>
-<connect gate="G$1" pin="!DTR" pad="1"/>
-<connect gate="G$1" pin="!RESET" pad="14"/>
-<connect gate="G$1" pin="!RI" pad="5"/>
-<connect gate="G$1" pin="!RTS" pad="2"/>
-<connect gate="G$1" pin="3V3OUT" pad="13"/>
-<connect gate="G$1" pin="CBUS0" pad="18"/>
-<connect gate="G$1" pin="CBUS1" pad="17"/>
-<connect gate="G$1" pin="CBUS2" pad="10"/>
-<connect gate="G$1" pin="CBUS3" pad="19"/>
-<connect gate="G$1" pin="GND@16" pad="16"/>
-<connect gate="G$1" pin="GND@6" pad="6"/>
-<connect gate="G$1" pin="RXD" pad="4"/>
-<connect gate="G$1" pin="TXD" pad="20"/>
-<connect gate="G$1" pin="USBDM" pad="12"/>
-<connect gate="G$1" pin="USBDP" pad="11"/>
-<connect gate="G$1" pin="VCC" pad="15"/>
-<connect gate="G$1" pin="VCCIO" pad="3"/>
+<connect gate="U$1" pin="!CTS" pad="9"/>
+<connect gate="U$1" pin="!DCD" pad="8"/>
+<connect gate="U$1" pin="!DSR" pad="7"/>
+<connect gate="U$1" pin="!DTR" pad="1"/>
+<connect gate="U$1" pin="!RESET" pad="14"/>
+<connect gate="U$1" pin="!RI" pad="5"/>
+<connect gate="U$1" pin="!RTS" pad="2"/>
+<connect gate="U$1" pin="3V3OUT" pad="13"/>
+<connect gate="U$1" pin="CBUS0" pad="18"/>
+<connect gate="U$1" pin="CBUS1" pad="17"/>
+<connect gate="U$1" pin="CBUS2" pad="10"/>
+<connect gate="U$1" pin="CBUS3" pad="19"/>
+<connect gate="U$1" pin="GND@16" pad="16"/>
+<connect gate="U$1" pin="GND@6" pad="6"/>
+<connect gate="U$1" pin="RXD" pad="4"/>
+<connect gate="U$1" pin="TXD" pad="20"/>
+<connect gate="U$1" pin="USBDM" pad="12"/>
+<connect gate="U$1" pin="USBDP" pad="11"/>
+<connect gate="U$1" pin="VCC" pad="15"/>
+<connect gate="U$1" pin="VCCIO" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -17201,7 +17351,7 @@ High-power, low thermal resistance package.</description>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="FT231X" device="S"/>
+<part name="U1" library="SparkFun-DigitalIC" deviceset="FT231X" device="S" value="FTS31XS-U"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="47PF-50V-5%(0603)" device="" value="47pF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="47PF-50V-5%(0603)" device="" value="47pF"/>
@@ -17242,8 +17392,8 @@ High-power, low thermal resistance package.</description>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k"/>
 <part name="P+10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="JP3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="JP4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="JP3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="JP4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -17275,8 +17425,8 @@ High-power, low thermal resistance package.</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U1" gate="G$1" x="73.66" y="132.08"/>
+<instance part="FRAME1" gate="V" x="147.32" y="0"/>
+<instance part="U1" gate="U$1" x="73.66" y="132.08"/>
 <instance part="C2" gate="G$1" x="210.82" y="116.84"/>
 <instance part="C3" gate="G$1" x="38.1" y="127"/>
 <instance part="C4" gate="G$1" x="33.02" y="127" rot="MR0"/>
@@ -17350,14 +17500,14 @@ High-power, low thermal resistance package.</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="USBDM"/>
+<pinref part="U1" gate="U$1" pin="USBDM"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="USBDP"/>
+<pinref part="U1" gate="U$1" pin="USBDP"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -17396,11 +17546,11 @@ High-power, low thermal resistance package.</description>
 <wire x1="38.1" y1="114.3" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND@16"/>
+<pinref part="U1" gate="U$1" pin="GND@16"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="60.96" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="116.84" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND@6"/>
+<pinref part="U1" gate="U$1" pin="GND@6"/>
 <wire x1="60.96" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="119.38" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
 <junction x="58.42" y="116.84"/>
@@ -17441,7 +17591,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VCC"/>
+<pinref part="U1" gate="U$1" pin="VCC"/>
 <wire x1="60.96" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="147.32" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="G$1" pin="VCC"/>
@@ -17481,7 +17631,7 @@ High-power, low thermal resistance package.</description>
 <label x="63.5" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="!CTS"/>
+<pinref part="U1" gate="U$1" pin="!CTS"/>
 <wire x1="86.36" y1="137.16" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
 <label x="88.9" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17498,7 +17648,7 @@ High-power, low thermal resistance package.</description>
 <label x="63.5" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="TXD"/>
+<pinref part="U1" gate="U$1" pin="TXD"/>
 <wire x1="86.36" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
 <label x="88.9" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17515,7 +17665,7 @@ High-power, low thermal resistance package.</description>
 <label x="63.5" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="RXD"/>
+<pinref part="U1" gate="U$1" pin="RXD"/>
 <wire x1="86.36" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
 <label x="88.9" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17527,7 +17677,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="DTR" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="!DTR"/>
+<pinref part="U1" gate="U$1" pin="!DTR"/>
 <wire x1="86.36" y1="134.62" x2="88.9" y2="134.62" width="0.1524" layer="91"/>
 <label x="88.9" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17543,16 +17693,16 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="3V3OUT"/>
+<pinref part="U1" gate="U$1" pin="3V3OUT"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="142.24" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCCIO"/>
+<pinref part="U1" gate="U$1" pin="VCCIO"/>
 <wire x1="53.34" y1="129.54" x2="53.34" y2="127" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="144.78" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="144.78" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 <junction x="53.34" y="142.24"/>
-<pinref part="U1" gate="G$1" pin="!RESET"/>
+<pinref part="U1" gate="U$1" pin="!RESET"/>
 <wire x1="60.96" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <junction x="53.34" y="129.54"/>
 <wire x1="53.34" y1="144.78" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
@@ -17594,7 +17744,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="CBUS3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="CBUS3"/>
+<pinref part="U1" gate="U$1" pin="CBUS3"/>
 <wire x1="86.36" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
 <label x="88.9" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17606,7 +17756,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="TXLED" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="CBUS2"/>
+<pinref part="U1" gate="U$1" pin="CBUS2"/>
 <wire x1="86.36" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
 <label x="98.298" y="119.634" size="1.778" layer="95"/>
 <pinref part="SJ2" gate="1" pin="1"/>
@@ -17620,7 +17770,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="RXLED" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="CBUS1"/>
+<pinref part="U1" gate="U$1" pin="CBUS1"/>
 <wire x1="86.36" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
 <label x="98.044" y="122.174" size="1.778" layer="95"/>
 <pinref part="SJ3" gate="G$1" pin="1"/>
@@ -17634,7 +17784,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="CBUS0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="CBUS0"/>
+<pinref part="U1" gate="U$1" pin="CBUS0"/>
 <wire x1="86.36" y1="124.46" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
 <label x="88.9" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17646,7 +17796,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="RI" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="!RI"/>
+<pinref part="U1" gate="U$1" pin="!RI"/>
 <wire x1="86.36" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
 <label x="88.9" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17658,7 +17808,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="DCD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="!DCD"/>
+<pinref part="U1" gate="U$1" pin="!DCD"/>
 <wire x1="86.36" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
 <label x="88.9" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17670,7 +17820,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="DSR" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="!DSR"/>
+<pinref part="U1" gate="U$1" pin="!DSR"/>
 <wire x1="86.36" y1="132.08" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
 <label x="88.9" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17682,7 +17832,7 @@ High-power, low thermal resistance package.</description>
 </net>
 <net name="RTS" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="!RTS"/>
+<pinref part="U1" gate="U$1" pin="!RTS"/>
 <wire x1="86.36" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
 <label x="88.9" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
