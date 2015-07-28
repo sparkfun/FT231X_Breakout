@@ -17251,7 +17251,7 @@ High-power, low thermal resistance package.</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="210.82" y1="160.02" x2="210.82" y2="161.798" width="1.016" layer="94"/>
+<wire x1="220.98" y1="160.02" x2="220.98" y2="161.798" width="1.016" layer="94"/>
 <wire x1="114.3" y1="128.778" x2="114.3" y2="130.302" width="1.016" layer="94"/>
 <wire x1="106.68" y1="128.778" x2="106.68" y2="130.302" width="1.016" layer="94"/>
 <wire x1="0" y1="93.98" x2="134.62" y2="93.98" width="0.127" layer="97" style="shortdash"/>
@@ -17261,10 +17261,17 @@ High-power, low thermal resistance package.</description>
 <wire x1="187.96" y1="137.16" x2="187.96" y2="93.98" width="0.127" layer="97" style="shortdash"/>
 <wire x1="187.96" y1="93.98" x2="248.92" y2="93.98" width="0.127" layer="97" style="shortdash"/>
 <wire x1="248.92" y1="93.98" x2="248.92" y2="96.52" width="0.127" layer="97" style="shortdash"/>
-<text x="238.76" y="7.62" size="1.778" layer="94">V01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">V11</text>
 <text x="165.608" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
 <text x="148.59" y="7.112" size="2.54" layer="94">Revised by: Patrick Alberts</text>
 <wire x1="187.96" y1="137.16" x2="248.92" y2="137.16" width="0.127" layer="97" style="shortdash"/>
+<text x="10.16" y="167.64" size="1.778" layer="97">USB VIN ONLY ON VBUS/VCC</text>
+<text x="93.98" y="167.64" size="1.778" layer="97">CUT TRACES ON SJ2 AND SJ3 
+     TO DISCONNECT LEDS</text>
+<text x="198.12" y="175.26" size="1.778" layer="97">CUT TRACE ON SJ1 TO SWITCH
+      VOUT FROM 5V TO 3.3V</text>
+<text x="195.58" y="142.24" size="1.778" layer="97">DO NOT CONNECT ALL THREE PADS
+      ON SJ1 AT THE SAME TIME!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -17297,15 +17304,15 @@ High-power, low thermal resistance package.</description>
 <instance part="GND7" gate="1" x="220.98" y="109.22"/>
 <instance part="JP1" gate="G$1" x="73.66" y="71.12" rot="MR0"/>
 <instance part="GND8" gate="1" x="66.04" y="60.96"/>
-<instance part="SJ1" gate="G$1" x="210.82" y="160.02" rot="R180"/>
+<instance part="SJ1" gate="G$1" x="220.98" y="160.02" rot="R180"/>
 <instance part="P+5" gate="G$1" x="53.34" y="152.4" smashed="yes">
 <attribute name="VALUE" x="51.054" y="155.194" size="1.778" layer="96"/>
 </instance>
-<instance part="P+6" gate="G$1" x="210.82" y="167.64" smashed="yes">
-<attribute name="VALUE" x="209.296" y="170.688" size="1.778" layer="96"/>
+<instance part="P+6" gate="G$1" x="220.98" y="167.64" smashed="yes">
+<attribute name="VALUE" x="219.456" y="170.688" size="1.778" layer="96"/>
 </instance>
-<instance part="P+7" gate="G$1" x="205.74" y="167.64" smashed="yes">
-<attribute name="VALUE" x="203.454" y="170.688" size="1.778" layer="96"/>
+<instance part="P+7" gate="G$1" x="210.82" y="167.64" smashed="yes">
+<attribute name="VALUE" x="208.534" y="170.688" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="G$1" x="25.4" y="157.48"/>
 <instance part="C1" gate="G$1" x="220.98" y="119.38"/>
@@ -17447,7 +17454,7 @@ High-power, low thermal resistance package.</description>
 <segment>
 <pinref part="SJ1" gate="G$1" pin="3"/>
 <pinref part="P+6" gate="G$1" pin="VCC"/>
-<wire x1="210.82" y1="167.64" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="167.64" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="VBUS"/>
@@ -17554,10 +17561,10 @@ High-power, low thermal resistance package.</description>
 </segment>
 <segment>
 <pinref part="SJ1" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="154.94" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="154.94" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="G$1" pin="3.3V"/>
-<wire x1="210.82" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="152.4" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="152.4" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="152.4" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -17732,8 +17739,8 @@ High-power, low thermal resistance package.</description>
 <net name="VOUT" class="0">
 <segment>
 <pinref part="SJ1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="160.02" x2="218.44" y2="160.02" width="0.1524" layer="91"/>
-<label x="218.44" y="160.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="226.06" y1="160.02" x2="228.6" y2="160.02" width="0.1524" layer="91"/>
+<label x="228.6" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -17752,4 +17759,10 @@ High-power, low thermal resistance package.</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
