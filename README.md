@@ -1,7 +1,7 @@
 FT231X Breakout
 ========================
 
-[![FT231X Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/7/3/6/11736-01_medium.jpg)  
+[![FT231X Breakout](https://cdn.sparkfun.com/assets/parts/7/9/5/4/11736-01.jpg)  
 *FT231X Breakout (BOB-11736)*](https://www.sparkfun.com/products/11736)
 
 This is a simple breakout board for the FTDI FT231X. A **USB to serial UART** interface with full modem control. The board has a micro USB connector, and other support circuitry to get the IC quickly up-and-running.
